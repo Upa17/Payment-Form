@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PAYMENT FORM</title>
+    <link rel="stylesheet" href="hu/style.css">
+</head>
+    <body>
+        <fieldset>
+        <h1 style="text-align: center; color: rgb(134, 26, 228); font-style: italic;"> <b><u>  PAYMENT FORM    </u></b></h1>
+    <hr>
+    <hr>
+    <hr>
+        <h3 style="text-align: center; color: rgb(228, 56, 26); font-style:normal ;"> <u>  PERSONAL DETAILS   </u></h3>
+    <hr>
+    <hr>
+    <p style= "color: rgb(15, 1, 134);"> <b> Required Fields are followed by (*) </b></p>
+    <hr>
+    <hr>
+        <form action="form">
+        <p>
+                <h4 style= "color: rgb(34, 145, 48);"> <u> <b>  FIRST NAME</b> </u>    *<input type="1st name"name="fname"  placeholder="UPASANA" id="1st name" required></h4>
+            <br>
+                <h4 style= "color: rgb(34, 145, 48);"> <u> <b>  SECOND NAME</b> </u>  *<input type="2nd name"name="sname" placeholder="HAZRA"  id="surname" required></h4>
+            <br>
+        </p>
+    <hr>
+    <hr>
+        <p>
+                <h4 style= " color: rgb(194, 34, 159);"> <b><u>  GENDER</u></b> * </h4>
+            <br>
+                Male<input type="radio" id="M"  name="gender"  value="M"><table for ="M">
+            <br>
+                Female<input type="radio" id="F"name="gender" value="F"><table for ="F">
+            <br>
+                Others<input type="radio" id="N"name="gender" value="O"><table for ="O">
+            <br> 
+        </p>
+    <hr>
+    <hr>
+    <P style="color: chocolate;"><u> <b> ADDRESS</b></u>  
+        <br>
+        <br>
+        <textarea name="address" id="address" cols="100" rows="2" placeholder=" 5/2,NASKAR PARA 1ST BYELANE, Howrah-711104" required></textarea></p>
+        <hr>
+        <hr>
+           <h4 style= "color: rgb(132, 23, 204);"> <u> <b> DATE OF BIRTH</b></u> </h4> 
+        <br>
+            DATE<input type="number"name="DD">
+        <br>
+            MONTH<input type="number"name="MM">
+        <br>
+            YEAR<input type="number"name="YYYY">
+        <br>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(209, 26, 111);"> <u> <b> CONTACT NUMBER</b></u> <input type="number"name="fname" placeholder="+91 0000000000 " id="phone number" required></h4>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(241, 154, 23);"> <u> <b> EMAIL ADDRESS</b></u> <input type="email"name="fname" placeholder=" xxxxxxxxxxxxgmail.com " id="email" required></h4>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(59, 155, 75);"> <u> <b> PINCODE</b></u> <input type="number"name="fname" placeholder="000000" id="pincode" required></h4> 
+    <hr>
+    <hr>
+            <h3 style="text-align: center; color: rgb(228, 56, 26); font-style:normal ;"> <u>  PAYMENT DETAILS   </u></h3>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(209, 191, 26);"> <u> <b> CARD TYPE</b></u> *</h4>
+            <select>
+                <option value="">--SELECT CARD TYPE--</option>
+                <br> 
+                    <option value="Visa debit card">Visa debit card</option>
+                <br>
+                    <option value="MasterCard debit card">MasterCard debit card</option>
+                <br>
+                    <option value="RuPay debit card">RuPay debit card</option>
+                <br>
+                    <option value="RuPay credit card">RuPay credit card</option>
+                <br>
+                    <option value="VISA credit card">VISA credit card</option>
+                <br>
+            </select>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(61, 10, 145);"> <u> <b> CARD NUMBER</b></u> *<input type="number"name="fname" placeholder="XXXX XXXX XXXX XXXX" id="card number" required></h4>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(40, 185, 65);"> <u> <b> CVV NUMBER</b></u> *<input type="password"name="cvv" placeholder="XXX" id="cvv" required></h4> 
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(204, 23, 23);"> <u> <b> EXPIRATION DATE </b></u> *</h4> 
+    <br>
+            DATE<input type="number"name="DD">
+    <br>
+            MONTH<input type="number"name="MM">
+    <br>
+            YEAR<input type="number"name="YYYY">
+    <br>
+    <hr>
+    <hr>
+    <h4 style= "color: rgb(209, 26, 154);"> <u> <b> BANK NAME </b></u> *</h4>
+    <select> 
+        <option value="">--SELECT BANK NAME--</option>
+        <br>
+            <option value="Bank of Baroda">Bank of Baroda</option>
+        <br>
+            <option value="Union Bank of India">Union Bank of India</option>
+        <br>
+            <option value="ICICI Bank">ICICI Bank</option>
+        <br>
+            <option value="HDFC Bank">HDFC Bank</option>
+        <br>
+            <option value="Axis Bank">Axis Bank</option>
+        <br>
+            <option value="State Bank of India">State Bank of India</option>
+        <br>
+            <option value="UCO Bank">UCO Bank</option>
+        <br>
+            <option value="Yes Bank">Yes Bank</option>
+        <br>
+    </select>
+<hr>
+<hr>
+            <h4 style= "color: rgb(11, 110, 240);"> <u> <b> CARD HOLDER NAME</b></u> *<input type="CARD HOLDER NAME "name="fname" placeholder="UPASANA HAZRA" id="name" required></h4>
+    <br>
+    <hr>
+    <hr>
+            <h4 style= "color: rgb(156, 65, 209);" > <u> <b>TODAY'S DATE</b></u> <input type="date" name="today_date" placeholder="00/00/0000" id="today_date" required></h4>
+    <br>
+    <hr>
+    <hr>
+</fieldset>
+            <input type="submit" value="PAY NOW" class="btn btn-primary">
+            <br>
+            <br>
+            <input type="RESET" value="RESET">
+        
+        </form>
+    </body>
+</html>
+
+        
